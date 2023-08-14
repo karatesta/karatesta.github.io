@@ -45,8 +45,8 @@ img { border: none; display: block; }
 
 .ThumbsBlock { text-align: center; font-size: 0; }
 .ThumbsBlock ul { display: inline-block; vertical-align: top; }
-.ThumbsBlock li { background-color: rgb(20,20,20); position: relative; display: inline-block; vertical-align: top; margin: 10px 5px 0 5px; height: 320px; width: 240px; overflow: hidden; font-size: 13px; }
-.ThumbsBlock li img { width: 240px; height: 320px; background-color: rgba(255,255,255,0.1); }
+.ThumbsBlock li { background-color: rgb(20,20,20); position: relative; display: inline-block; vertical-align: top; margin: 10px 5px 0 5px; height: 240px; width: 320px; overflow: hidden; font-size: 13px; }
+.ThumbsBlock li img { width: 320px; height: 240px; background-color: rgba(255,255,255,0.1); }
 .ThumbsBlock li .ThumbTitle { transition: 0.2s; background-color: rgba(0,0,0,0.5); color: rgb(255,232,79); font-weight: bold; position: absolute; left: 0; width: 100%; overflow: hidden; bottom: 0; display: block; height: 25px; line-height: 25px;  font-size: 14px; text-transform: uppercase; }
 .ThumbsBlock li:hover .ThumbTitle { background-color: rgba(255,232,79,0.9); color: rgb(25,25,25); height: auto; max-height: 50px; }
 
